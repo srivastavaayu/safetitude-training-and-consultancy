@@ -1,0 +1,73 @@
+:root {
+  --color-primary: #028835;
+  --color-secondary: #1e2d3b;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar {
+  background: linear-gradient(
+    90deg,
+    var(--color-primary),
+    var(--color-secondary) 50%
+  );
+}
+.navbar-brand {
+  display: flex;
+}
+.navbar-brand > img {
+  float: left;
+}
+.navbar-brand > h1 {
+  margin-left: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  font-size: 1rem;
+  text-align: center;
+}
+.navbar-brand > h1 > span {
+  font-size: 2.1rem;
+}
+#navbar-links {
+  justify-content: flex-end;
+}
+#safetitude-carousel img {
+  height: 85vh;
+}
+.index-titles {
+  margin: 50px auto 10px auto;
+}
+#services {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 13%;
+}
+.card {
+  margin: 10px;
+  height: 70vh;
+  overflow: hidden;
+  background-color: #f7f7f7;
+  border: 0px;
+}
+.card-img-top {
+  width: 100%;
+  height: 30vh;
+  border-radius: 5%;
+}
+.card-text {
+  font-size: 0.85rem;
+}
+#clients {
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+}
+#clients > img {
+  margin: 20px;
+  height: 100%;
+  width: auto;
+  object-fit: contain;
+}
