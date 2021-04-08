@@ -21,14 +21,21 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbar-links">
-            <div class="navbar-nav">
-                <a class="nav-link active" href="#">Home</a>
-                <a class="nav-link" href="#">About</a>
-                <a class="nav-link" href="#">Credentials</a>
-                <a class="nav-link" href="#">Offers</a>
-                <a class="nav-link" href="#">Useful Information</a>
-                <a class="nav-link" href="#">Contact</a>
-            </div>
+            <ul class="navbar-nav">
+                <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item dropdown">
+                    <a id="about-dropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown">About</a>
+                    <div class="dropdown-menu" aria-labelledby="about-dropdown">
+                        <a class="dropdown-item" href="about-safetitude.html">About Safetitude</a>
+                        <a class="dropdown-item" href="our-approach.html">Our Approach</a>
+                        <a class="dropdown-item" href="directors-message.html">Director's Message</a>
+                    </div>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="credentials.html">Credentials</a></li>
+                <li class="nav-item"><a class="nav-link" href="offers.html">Offers</a></li>
+                <li class="nav-item"><a class="nav-link" href="useful-information.html">Useful Information</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
         </div>
     </nav>
     <main>
@@ -165,8 +172,6 @@
                 <img src="./img/clients/nalco-water.png">
             </div>
         </div>
-    </main>
-    <footer>
         <div id="contact-container">
             <h1 class="index-titles text-center">CONTACT</h1>
             <div class="index-titles-underline text-center"></div>
@@ -177,7 +182,10 @@
                 <div id="contact">
                     <div class="contact-card">
                         <h3>Registered Office</h3>
-                        <p>1st Floor, Atharva Aprt.-II, Plot No. 22, Jaihind Society, Shyam Nagar, Manish Nagar, Somalwada, Nagpur, Maharashtra 440015<br><a href="mailto:safetitude@gmail.com"><i class="fas fa-at"></i>safetitude@gmail.com</a><br><a class="mobilesOnly" href="tel:+919960155763"><i class="fas fa-phone"></i>+91-99601-55763</a></p>
+                        <p>1st Floor, Atharva Aprt.-II, Plot No. 22, Jaihind Society, Shyam Nagar, Manish Nagar, Somalwada,
+                            Nagpur, Maharashtra 440015<br><a href="mailto:safetitude@gmail.com"><i class="fas fa-at"></i>
+                                safetitude@gmail.com</a><br><a class="mobilesOnly" href="tel:+919960155763"><i
+                                    class="fas fa-phone"></i> +91-99601-55763</a></p>
                     </div>
                     <div class="contact-card">
                         <h3>Head Office</h3>
@@ -186,6 +194,6 @@
                 </div>
             </div>
         </div>
-    </footer>
+    </main>
 </body>
 </html>

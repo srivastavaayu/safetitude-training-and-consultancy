@@ -1,0 +1,40 @@
+:root {
+  --color-primary: #028835;
+  --color-secondary: #1e2d3b;
+  --color-background: #f7f7f7;
+}
+body {
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar {
+  background: linear-gradient(
+    90deg,
+    var(--color-primary),
+    var(--color-secondary) 50%
+  );
+}
+.navbar-brand {
+  display: flex;
+}
+.navbar-brand > img {
+  float: left;
+}
+.navbar-brand > h1 {
+  margin-left: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  font-size: 1rem;
+  text-align: center;
+}
+.navbar-brand > h1 > span {
+  font-size: 2.1rem;
+}
+#navbar-links {
+  justify-content: flex-end;
+}
+#blog {
+  width: 100vw;
+  height: 100vh;
+}
