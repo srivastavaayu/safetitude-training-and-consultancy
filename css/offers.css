@@ -58,9 +58,3 @@ body {
 #training-container > .titles-underline {
   width: 10vw;
 }
-p,
-#assignment-container li,
-#documentation-container li,
-#training-container li {
-  text-shadow: 2px 2px 3px #a1a1a1;
-}
