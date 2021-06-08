@@ -58,3 +58,8 @@ body {
 #training-container > .titles-underline {
   width: 10vw;
 }
+footer {
+  height: 7vh;
+  background-color: #f7f7f7;
+  padding: 10px;
+}

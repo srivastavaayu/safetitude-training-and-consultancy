@@ -47,3 +47,8 @@ body {
   margin: auto;
   width: 80vw;
 }
+footer {
+  height: 7vh;
+  background-color: #f7f7f7;
+  padding: 10px;
+}
