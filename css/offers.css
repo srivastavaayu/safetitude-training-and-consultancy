@@ -63,3 +63,8 @@ footer {
   background-color: #f7f7f7;
   padding: 10px;
 }
+
+.navbar-brand > h1 #llp {
+  font-size: 0.6em;
+  align-items: flex-start;
+}
