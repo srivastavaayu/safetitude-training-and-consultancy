@@ -81,16 +81,18 @@ body {
 }
 #clients-container {
   background-color: var(--color-background);
-  height: 40vh;
+  height: 50vh;
   padding: 1px 1px;
 }
 #clients {
   height: 10vh;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
 #clients > img {
   height: 100%;
+  margin-bottom: 4vh;
   width: auto;
   object-fit: contain;
 }
